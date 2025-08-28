@@ -1,0 +1,23 @@
+#N canvas 230 161 467 377 10;
+#X msg 156 306 \; pd-receive clear;
+#X obj 153 186 pack s s;
+#X msg 132 211 \; pd-receive clear \; pd-receive obj 145 115 r \$1
+\; pd-receive obj 145 144 s \$2 \; pd-receive connect 0 0 1 0 \;;
+#X obj 91 78 inlet;
+#X obj 306 94 inlet;
+#X obj 232 143 symbol \$2;
+#X obj 153 143 symbol \$1;
+#X obj 212 83 loadbang;
+#X obj 218 164 t b s;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 6 0;
+#X connect 4 0 5 0;
+#X connect 5 0 8 0;
+#X connect 6 0 1 0;
+#X connect 6 0 5 1;
+#X connect 7 0 5 0;
+#X connect 7 0 6 0;
+#X connect 7 0 5 0;
+#X connect 8 0 1 0;
+#X connect 8 1 1 1;

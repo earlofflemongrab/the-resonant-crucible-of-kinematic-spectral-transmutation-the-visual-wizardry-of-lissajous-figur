@@ -1,0 +1,20 @@
+#N canvas 602 497 450 300 10;
+#X obj 37 94 metro 10;
+#X msg 37 72 1;
+#X obj 38 121 snapshot~;
+#X floatatom 183 101 9 0 0 0 - - -;
+#X obj 38 50 loadbang;
+#X obj 147 58 inlet~;
+#X floatatom 171 239 12 0 0 0 - - -;
+#X obj 272 237 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 92 174 expr $f1 \; if ($f1>132300 \, $f1 \, 0);
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 2 0 8 0;
+#X connect 4 0 1 0;
+#X connect 5 0 2 0;
+#X connect 8 1 6 0;
+#X connect 8 1 7 0;
+#X coords 0 -1 1 1 140 18 1 100 100;

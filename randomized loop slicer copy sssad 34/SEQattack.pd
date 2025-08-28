@@ -1,0 +1,9 @@
+#N canvas 270 147 450 300 10;
+#X floatatom 102 102 4 0 0 0 - - -;
+#X obj 132 240 s SEQattack;
+#X text 133 102 fade speed;
+#X obj 270 110 SS fadespeed;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 3 0 0 0;
+#X coords 0 -1 1 1 100 20 2 100 100;

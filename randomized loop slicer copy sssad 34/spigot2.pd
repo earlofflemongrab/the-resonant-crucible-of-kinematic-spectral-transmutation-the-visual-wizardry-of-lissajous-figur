@@ -1,0 +1,19 @@
+#N canvas 149 41 450 300 10;
+#X obj 64 79 spigot;
+#X msg 219 71 1;
+#X msg 219 51 0;
+#X obj 148 72 change;
+#X obj 33 162 outlet;
+#X obj 314 62 sel \$1;
+#X obj 321 33 inlet;
+#X obj 51 32 inlet;
+#X text 32 227 opens the command path when the argument enters the
+right inlet. every other value closes it.;
+#X connect 0 0 4 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 1;
+#X connect 5 0 1 0;
+#X connect 5 1 2 0;
+#X connect 6 0 5 0;
+#X connect 7 0 0 0;

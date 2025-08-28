@@ -1,0 +1,18 @@
+#N canvas 217 144 450 300 10;
+#X obj 167 61 +~ 1;
+#X obj 98 102 expr~ $v1+($v2-$v1)*$v3;
+#X obj 212 63 wrap~;
+#X obj 97 83 tabread~ \$1;
+#X obj 174 83 tabread~ \$1;
+#X obj 96 19 inlet~;
+#X obj 97 141 outlet~;
+#X text 239 -62 linear interpolation;
+#X text 49 -34 needs one additional sample at the end of the tab;
+#X connect 0 0 4 0;
+#X connect 1 0 6 0;
+#X connect 2 0 1 2;
+#X connect 3 0 1 0;
+#X connect 4 0 1 1;
+#X connect 5 0 3 0;
+#X connect 5 0 0 0;
+#X connect 5 0 2 0;
