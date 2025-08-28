@@ -1,0 +1,10 @@
+Message.txt
+
+Does not work on Linux or Windows 64bit because the soundtouch~ library does not exist for Linux or Windows 64bit.
+
+--------------------------------------------------------------------------------------
+
+Ne fonctionne pas sous Linux ou Windows 64bit parce que la library soundtouch~ n'existe pas pour Linux ou Windows 64bit.
+
+--------------------------------------------------------------------------------------
+

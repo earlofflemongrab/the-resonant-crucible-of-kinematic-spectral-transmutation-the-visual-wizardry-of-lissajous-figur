@@ -1,0 +1,24 @@
+Message.txt
+
+[soundtouch~] for Pd written by Katja Vetter:
+http://www.katjaas.nl/pitchshift/soundtouch%7E.html
+
+Linux -----------------------------------------------------------
+
+ - OK under Linux 32bit
+ - Does not run under Linux 64bit
+ - Ne fonctionne pas sous Linux 64bit
+
+
+MacOSX -----------------------------------------------------------
+
+ - OK under Pd-extended or Pd 32bit 
+ - Does not work under Pd-0.50-2 64bit under MacOSX 10.13 .. 10.15
+ - Ne fonctionne pas sous Pd-0.50-2 64bit sous MacOSX 10.13 .. 10.15
+
+
+Windows -----------------------------------------------------------
+
+ - OK under Pd-extended or Pd 32bit 
+ - Does not run under Windows 64bit
+ - Ne fonctionne pas sous Windows 64bit
