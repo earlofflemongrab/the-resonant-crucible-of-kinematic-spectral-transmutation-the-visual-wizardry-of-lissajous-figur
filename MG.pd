@@ -1,0 +1,8 @@
+#N canvas 591 211 450 300 10;
+#X obj 90 99 spigot2 \$1;
+#X obj 85 70 r mutegroup\$2;
+#X obj 20 112 s mute\$2;
+#X text 259 148 \$2 -> layer;
+#X text 257 134 \$1 -> mutegroup;
+#X connect 0 0 2 0;
+#X connect 1 0 0 1;

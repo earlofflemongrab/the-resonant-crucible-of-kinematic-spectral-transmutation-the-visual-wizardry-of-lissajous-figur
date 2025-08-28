@@ -1,0 +1,9 @@
+#N canvas 154 129 450 300 10;
+#X obj 134 176 s CTLinit;
+#X obj 183 102 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 102 102 init param;
+#X obj 91 51 r sssad_load;
+#X connect 1 0 0 0;
+#X connect 3 0 1 0;
+#X coords 0 -1 1 1 100 19 2 100 100;

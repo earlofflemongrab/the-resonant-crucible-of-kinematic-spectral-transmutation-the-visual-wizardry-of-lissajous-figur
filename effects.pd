@@ -1,0 +1,2 @@
+#N canvas 83 106 920 140 10;
+#X obj -6 8 effectsGUI \$1;

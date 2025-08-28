@@ -1,0 +1,6 @@
+#N canvas 148 489 966 257 10;
+#X obj 17 5 layerGUI \$1;
+#X obj 778 20 rlsLFO \$1 1;
+#X obj 778 38 rlsLFO \$1 2;
+#X obj 778 56 rlsLFO \$1 3;
+#X obj 862 21 control \$1;

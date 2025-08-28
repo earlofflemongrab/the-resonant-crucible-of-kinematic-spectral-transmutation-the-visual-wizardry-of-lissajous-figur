@@ -1,0 +1,57 @@
+main_file: "Harpo"
+
+midi_controllers:
+
+ Master_Volume:
+  midi_cc: 7
+  value: 28
+ Filter Cutoff:
+  midi_cc: 74
+  value: 60
+ Filter Resonance:
+  midi_cc: 71
+  value: 60
+ Osc Freqency:
+  midi_cc: 16
+  value: 41
+
+  
+ Note Tempo:
+  midi_cc: 18
+  value: 60
+ Note Count:
+  midi_cc: 19 
+  value: '1'
+  labels: [ '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32' ]
+ Delay Time:
+  midi_cc: 17
+  value: 20
+ Delay Feedback:
+  midi_cc: 91
+  value: 20
+  
+ 
+ LFO Rate:
+  midi_cc: 76
+  value: 0
+ LFO Min Range:
+  midi_cc: 77
+  value: 60
+ LFO Max Range:
+  midi_cc: 93
+  value: 0 
+ Osc Mixer: 
+  midi_cc: 114
+  value: 60
+
+  
+ Wave A: 
+  midi_cc: 75
+  value: '0'
+  labels: [ '0', '1', '2' ] 
+ Wave B: 
+  midi_cc: 72
+  value: '0'
+  labels: [ '0', '1', '2' ]  
+  
+

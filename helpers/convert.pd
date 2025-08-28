@@ -1,0 +1,31 @@
+#N canvas 281 272 127 134 10;
+#N canvas 160 74 778 413 conv 0;
+#X obj 94 370 soundfiler;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array filetoconvert1 680450 float 2;
+#X coords 0 1 680450 -1 200 140 1;
+#X restore 489 40 graph;
+#X obj 29 195 openpanel;
+#X msg 23 228 read -resize \$1 filetoconvert1 filetoconvert2;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array filetoconvert2 680450 float 2;
+#X coords 0 1 680450 -1 200 140 1;
+#X restore 486 204 graph;
+#X obj 102 102 bng 80 250 50 0 conv convB empty 17 7 0 10 -262144 -1
+-1;
+#X obj 155 309 symbol;
+#X obj 156 261 t b a;
+#X obj 145 285 del 800;
+#X msg 109 335 write -wave -normalize \$1.wav filetoconvert1 filetoconvert2
+;
+#X connect 2 0 3 0;
+#X connect 2 0 7 0;
+#X connect 3 0 0 0;
+#X connect 5 0 2 0;
+#X connect 6 0 9 0;
+#X connect 7 0 8 0;
+#X connect 7 1 6 1;
+#X connect 8 0 6 0;
+#X connect 9 0 0 0;
+#X coords 0 -1 1 1 84 84 1 100 100;
+#X restore 22 26 pd conv;

@@ -1,0 +1,31 @@
+#N canvas 258 37 417 579 10;
+#X text 125 120 sustain pedal holds pattern;
+#X obj 103 120 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 103 103 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 125 103 sustain pedals holds notes;
+#X obj 150 474 s holdsource;
+#X obj 62 472 s noteholdOSC;
+#X obj 143 401 spigot;
+#X obj 80 401 spigot;
+#X obj 210 242 spigot3;
+#X obj 211 201 ctlin;
+#X obj 206 264 spigot3;
+#X floatatom 293 103 5 0 0 0 - - -;
+#X text 324 105 MIDI Ch;
+#X floatatom 293 120 5 0 0 0 - - -;
+#X text 324 122 MIDI CC;
+#X connect 1 0 6 1;
+#X connect 2 0 7 1;
+#X connect 6 0 4 0;
+#X connect 7 0 5 0;
+#X connect 8 0 10 0;
+#X connect 9 0 8 0;
+#X connect 9 1 10 1;
+#X connect 9 2 8 1;
+#X connect 10 0 6 0;
+#X connect 10 0 7 0;
+#X connect 11 0 8 2;
+#X connect 13 0 10 2;
+#X coords 0 -1 1 1 270 38 2 100 100;

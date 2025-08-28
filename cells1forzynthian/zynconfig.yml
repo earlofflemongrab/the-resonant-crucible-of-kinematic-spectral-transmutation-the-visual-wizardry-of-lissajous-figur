@@ -1,0 +1,39 @@
+main_file: "cells1forzynthian.pd"
+
+midi_controllers:
+
+thresh1:
+ midi_cc: 64
+ value: 16
+thresh2:
+ midi_cc: 65
+ value: 16
+thresh3:
+ midi_cc: 66
+ value: 16
+thresh4:
+ midi_cc: 67
+ value: 16
+
+thresh5:
+ midi_cc: 68
+ value: 16
+thresh6:
+ midi_cc: 69
+ value: 16
+thresh7:
+ midi_cc: 70
+ value: 16
+thresh8:
+ midi_cc: 71
+ value: 16
+
+thresh9:
+ midi_cc: 72
+ value: 16
+thresh10:
+ midi_cc: 73
+ value: 16
+thresh11:
+ midi_cc: 74
+ value: 16
